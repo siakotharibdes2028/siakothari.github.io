@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sia Kothari | Clothing Company</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <style>
+        .brand-identity-main {
+            min-height: 80vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 120px 5% 80px;
+        }
+        .bi-projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 40px;
+            max-width: 1000px;
+            width: 100%;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-inner">
+            <a href="index.html" class="logo">
+                <span class="logo-text">Sia</span>
+            </a>
+            <div class="nav-right" style="margin-left:auto;">
+                <a href="social-media-post.html" class="btn btn-secondary nav-cta">Back to Social Media Post</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="brand-identity-main">
+        <div class="section-title-wrapper">
+            <h1 class="section-title text-center"><span class="highlight-blue">Clothing</span> Company</h1>
+            <p class="text-center mt-20" style="font-size: 1.25rem; color: #555; max-width: 600px; margin: 20px auto 0;">
+                Select a category below to view the designs for this project.
+            </p>
+        </div>
+        
+        <div class="bi-projects-grid">
+            <!-- Carousel -->
+            <a href="smp-clothing-carousel.html" class="project-card tilt-left bg-pink">
+                <div class="project-image">
+                    <div class="placeholder-img" style="background: linear-gradient(135deg, #fce4ec, #f8bbd0); width:100%; height:100%; display:flex; align-items:center; justify-content:center; color:#c2185b; font-weight:700; font-size:2rem; text-align:center; padding: 20px;">Carousel</div>
+                </div>
+                <div class="project-info">
+                    <h3>Carousel</h3>
+                    <span class="btn btn-white">See Project</span>
+                </div>
+            </a>
+            
+            <!-- Instagram Story -->
+            <a href="smp-clothing-igstory.html" class="project-card tilt-right bg-blue">
+                <div class="project-image">
+                    <div class="placeholder-img" style="background: linear-gradient(135deg, #e3f2fd, #bbdefb); width:100%; height:100%; display:flex; align-items:center; justify-content:center; color:#1976d2; font-weight:700; font-size:2rem; text-align:center; padding: 20px;">Instagram Story</div>
+                </div>
+                <div class="project-info">
+                    <h3>Instagram Story</h3>
+                    <span class="btn btn-white">See Project</span>
+                </div>
+            </a>
+
+            <!-- Static -->
+            <a href="smp-clothing-static.html" class="project-card tilt-left bg-yellow">
+                <div class="project-image">
+                    <div class="placeholder-img" style="background: linear-gradient(135deg, #fff9c4, #fff59d); width:100%; height:100%; display:flex; align-items:center; justify-content:center; color:#fbc02d; font-weight:700; font-size:2rem; text-align:center; padding: 20px;">Static</div>
+                </div>
+                <div class="project-info">
+                    <h3>Static</h3>
+                    <span class="btn btn-white">See Project</span>
+                </div>
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <p>Made with ❤️ by Sia Kothari &copy; 2026</p>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
+
+
